@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;	
+}
+.titulo{
+	text-align: center;
+	margin: 30px;
+	font-size: 35px;
+    font-family: 'Chonburi', cursive;
+	color: #D94848;
+}
+section{
+	width: 1300px;
+    height: auto;
+	margin: auto;
+}
+.caja-19{
+	width: 100%;
+    height: auto;
+	border: 1px solid #707070;
+	margin: auto;	
+}
+.grupo-1{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+.caja-19 .grupo-1 div{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	background-color: #310F40;
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+}
+.grupo-2{
+	display: flex;
+	flex-direction: row-reverse;
+    justify-content: center;
+}
+.grupo-2 div{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	background-color: #310F40;
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid #707070;
+}
+.caja-14{
+	display: flex;
+	border: 1px solid #707070;
+}
+.caja-14 .cajaNum-1{
+	width: 650px;
+}
+.caja-14 .cajaNum-2{
+	width: 650px;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+.num{
+	font-size: 50px;
+	text-align: center;
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin: 10px auto 10px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: #fff;
+	justify-content: center;
+	flex-direction: column-reverse;
+}
+.cajaNum-1 div{
+	background-color: #9AD2D9;
+}
+.cajaNum-2 div{
+	background-color: #D9644A;
+	flex-direction: column-reverse;
+}
